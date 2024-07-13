@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Pizza Place</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to John's Pizza Place</h1>
+    <p>The best place to enjoy delicious, fresh dough pizza</p>
+</header>
+
+<nav>
+    <div class="container">
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#reviews">Reviews</a>
+    </div>
+</nav>
+
+<section id="about" class="container">
+    <h2>About Us</h2>
+    <p>John's Pizza Place was founded with a passion for crafting the best pizza in town. Our secret lies in our fresh dough, quality ingredients, and commitment to excellent service. Whether you're here to grab a quick slice or to enjoy a meal with family and friends, we strive to make every visit memorable.</p>
+</section>
+
+<section id="menu" class="container">
+    <h2>Our Menu</h2>
+    <p>Explore our diverse menu featuring a variety of pizzas, sides, and beverages. Each item is made with the freshest ingredients to ensure the best taste and quality.</p>
+    <ul>
+        <li>Margherita Pizza</li>
+        <li>Pepperoni Pizza</li>
+        <li>Veggie Delight Pizza</li>
+        <li>BBQ Chicken Pizza</li>
+        <li>Cheese Breadsticks</li>
+        <li>Garlic Knots</li>
+        <li>Sodas and more...</li>
+    </ul>
+</section>
+
+<section id="gallery" class="container">
+    <h2>Gallery</h2>
+    <p>Check out some of our mouth-watering pizzas and our cozy restaurant ambiance.</p>
+    <!-- Images can be added here -->
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to place an order? Reach out to us!</p>
+    <p>Email: info@johnspizzaplace.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: 123 Pizza Street, Foodie Town, USA</p>
+</section>
+
+<section id="reviews" class="container">
+    <h2>Reviews</h2>
+    <p>Here's what our customers are saying about us:</p>
+    <blockquote>"Best pizza in town! The dough is always fresh and the toppings are delicious."</blockquote>
+    <blockquote>"A great place to chill with friends and enjoy some amazing pizza. Highly recommend!"</blockquote>
+</section>
+
+<footer>
+    <p>&copy; 2024 John's Pizza Place. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
